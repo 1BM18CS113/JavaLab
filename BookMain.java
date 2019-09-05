@@ -46,7 +46,7 @@ class BookMain{
 	public static void main(String args[]){
 		
 		Scanner vs = new Scanner(System.in);
-		System.out.println("Enter the number of students");
+		System.out.println("Enter the number of Books");
 		int n = vs.nextInt();
 		
 		Book obj[] = new Book[n];
